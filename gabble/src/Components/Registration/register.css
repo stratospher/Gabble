@@ -1,0 +1,40 @@
+.flexes2{
+    display: flex;
+}
+.wd{
+    width: 15%;
+}
+.reg{
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+/* .wdip{
+    width: 40%;
+} */
+.ip{
+    background-color: rgb(243, 222, 36);
+    border: none;
+    outline: none;
+    padding: 2%;
+    border-radius: 10px;
+    border: 2px black solid;
+    margin-top: 8%;
+    margin-left: 3%;
+    width: 300px;
+    
+  }
+.bn{
+    border: none;
+    background-color: black;
+    outline:none;
+    color: white;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-top: 6%;
+    cursor: pointer;
+    
+}

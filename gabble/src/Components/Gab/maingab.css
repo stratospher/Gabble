@@ -1,0 +1,42 @@
+.menus{
+    margin-top: 10%;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 6%;
+   
+}
+.flexes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexes9{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+}
+.cmt{
+    margin-left: 4%;
+}
+.posts{
+    width: 70%;
+    margin-top:2%;
+   
+}
+.hpl{
+    cursor: pointer;
+    margin-right: 10%;
+    padding: 3%;
+    padding-left: 30%;
+    border-radius: 20px;
+}
+.ph{
+    font-weight: 700;
+}
+.pb{
+    border: thin black solid;
+    border-radius: 15px;
+    padding: 2%;
+    font-size: 1rem;
+    
+}

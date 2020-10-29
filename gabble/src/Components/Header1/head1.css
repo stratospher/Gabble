@@ -1,0 +1,10 @@
+.flexes6{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: 3%;
+    
+}
+.gabimg{
+    width:30%;
+}
