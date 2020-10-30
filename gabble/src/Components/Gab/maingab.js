@@ -20,9 +20,9 @@ export default function Gabble() {
       </div>
       {tog===1&&<div>
       <Homie></Homie>
-      </div>}{tog===2&&<div>
+      </div>}{tog===3&&<div>
           <Likes></Likes>
-      </div>}{tog===3&&
+      </div>}{tog===2&&
       <div><Posts></Posts></div>}
 </div>
     </div>

@@ -1,5 +1,19 @@
 import React from 'react';
-import './maingab.css'
+import './post.css'
 export default function Postss(){
-    return(<div><p>Post Code here</p></div>);
+    return(
+    <div   className="newgab">
+        <div>
+        <input className="gt" placeholder="Gab Title"></input>
+        </div>
+
+        <div >
+            <input className="ng " placeholder="New Gab" type="text"></input>
+        </div>
+        <div>
+            <button className="bn">Post</button>
+        </div>
+
+    </div>
+    );
 }

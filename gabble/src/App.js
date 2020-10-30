@@ -3,6 +3,8 @@ import Reg from './Components/Registration/register';
 import Lands from './Components/Land/landing';
 import {Router} from '@reach/router';
 import Gabble from './Components/Gab/maingab';
+import Login from './Components/login/login';
+import Intro from './Components/Intro/intro';
 function App() {
   return (
     <div>
@@ -10,6 +12,8 @@ function App() {
         <Regs path='/reg'></Regs>
         <Landingpage path='/'></Landingpage>
         <Gabfinals path='/gab'></Gabfinals>
+        <Loginpage path='/login'></Loginpage>
+        <Intropage path='/intro'></Intropage>
       </Router>
     </div>
   );
@@ -22,5 +26,11 @@ function Gabfinals(){
 }
 function Landingpage(){
   return <Lands></Lands>
+}
+function Loginpage(){
+  return <Login></Login>
+}
+function Intropage(){
+  return <Intro></Intro>
 }
 export default App;
